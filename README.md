@@ -1,5 +1,3 @@
-# nt
+# elp
 
-NgwinoTwige
-
-Webpage for the project.
+Early Learning Program
