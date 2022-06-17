@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% for path in css_paths %}
+        <link type="text/css" rel="stylesheet" href="{{ path }}">
+        {% endfor %}
+    {% for path in js_paths %}
+        <script src="{{ path }}"></script>
+        {% endfor %}
+    <title>{{ cfg["title"] }}</title>
+</head>
+
+<h1>{{ cfg["title"] }}</h1>
+
+<div class="btn-toolbar" role="toolbar" aria-label="Basic example">
+    {% for c in art_cfgs %}
+        {% set name = c["md_filename"] %}
+        <button type="button" class="btn btn-primary mx-auto">
+            <a href="{{ name }}.html">{{ name }}</a>
+        </button>
+        {% endfor %}
+</div>
+
+
+{# 
+<ul class="navigation">
+{% for c in art_cfgs %}
+    {% set name = c["md_filename"] %}
+    <li><a href="{{ name }}.html">{{ name }}</a></li>
+    {% endfor %}
+</ul>
+#}
+
+<hr>
+
+{{ n_arts  }}
+
+{{ art_html }}

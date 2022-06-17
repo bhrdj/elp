@@ -1,0 +1,7 @@
+1. fix links going to google search instead of being regular links
+
+2. fix bad fontsize for method-text on mobile
+
+3. decrease size of images
+
+4. add links to world_videos

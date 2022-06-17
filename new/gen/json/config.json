@@ -1,0 +1,13 @@
+[
+    {
+        "title": "Article Title Number One",
+        "html_template_path": "layout.html",
+        "md_filename": "article1",
+        "code_link": " "
+    },{
+        "title": "Article Title Number Two",
+        "html_template_path": "layout.html",
+        "md_filename": "article2",
+        "code_link": " "
+    }
+]
